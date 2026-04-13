@@ -1,0 +1,16 @@
+# Image Captioning with Flower Dataset - Requirements (PyTorch-only)
+# Install CPU or CUDA builds of torch/torchvision per your setup.
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image & arrays
+Pillow>=9.0.0
+numpy>=1.23.0
+
+# Visualization & utils
+matplotlib>=3.6.0
+tqdm>=4.64.0
+
+# Note: For CUDA builds, install via PyTorch index-url (README shows commands).
